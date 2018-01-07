@@ -9,6 +9,8 @@ defmodule ElusiveArtFinder do
   end
 
   defp fetch_page_with_sleep(next_url) do
+    IO.puts("Sleeping...")
+    :timer.sleep(1000)
     fetch_page(next_url)
   end
 

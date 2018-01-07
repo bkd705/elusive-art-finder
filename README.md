@@ -1,21 +1,15 @@
 # ElusiveArtFinder
 
-**TODO: Add description**
+A little elixir script to find the art at the end of the cool digital art experiment at [permanent-redirect](https://permanent-redirect.xyz/).
 
-## Installation
+### Usage
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elusive_art_finder` to your list of dependencies in `mix.exs`:
+1. git clone && cd
+2. `mix deps.get`
+3. `iex -S mix`
+4. `ElusiveArtFinder.fetch_page`
+5. aaannnddd.. wait :D
 
-```elixir
-def deps do
-  [
-    {:elusive_art_finder, "~> 0.1.0"}
-  ]
-end
-```
+### Dependencies
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elusive_art_finder](https://hexdocs.pm/elusive_art_finder).
-
+* HTTPoison
